@@ -1,0 +1,15 @@
+{
+  "asset_ids": [ "AZHHLvzKbsEPZUQXvCfihkEknF71GHNpPH" ],
+  "contract_url": "https://docs.google.com/presentation/d/1JrySwCKzR-LTmaqc6d65BNTfhJZ2jR8AnxWlZLVWJzE/pub?start=true&loop=false&delayms=10000",
+  "name_short": "EIGTK",
+  "name": "Eightk",
+  "issuer": "NT <coin@eight.tk>",
+  "description": "# Eigh.tk\r\n\r\nEine liegende 8 repräsentiert die *Unendlichkeit*. Das K steht insofern für das *rückwärts lesen* der domains, als 8K die Unendlichkeit des Internets repräsentiert.\r\n\r\n## Details\r\n* Weil das _K_ im Englischen auch für 1000 stehen kann, werden von diesen Aktien nur 8000 (acht tausend) EIGTK's ausgegeben.\r\n* Der Startpreis für 1 EIGTK's, soll bei 6180 satoshis liegen. \r\n* Ausgegeben werden alle bis auf min. 5-15%.\r\nDividenden werden mind. 4-mal pro Jahr ausbezahlt.\r\n\r\n## Erwerben\r\nBTC: `128y5MfYHCwxdb2Eh4uMLxLs6iPjVHeYim`\r\n\r\n##Kontakt\r\n[E-mail](mailto:coin@eigh.tk)\r\n\r\n## Aussicht\r\nAlle unter Detail's genannten Punkte sind fix.",
+  "description_mime": "text/x-markdown; charset=UTF-8",
+  "type": "Stock",
+  "divisibility": 4,
+  "link_to_website": true,
+  "icon_url": "https://coinprism.blob.core.windows.net/profile/icon/AZHHLvzKbsEPZUQXvCfihkEknF71GHNpPH.jpg",
+  "image_url": "https://coinprism.blob.core.windows.net/profile/image/AZHHLvzKbsEPZUQXvCfihkEknF71GHNpPH.jpg",
+  "version": "1.0"
+}

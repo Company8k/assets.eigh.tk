@@ -1,0 +1,25 @@
+{
+  "name": "assets.eigh.tk",
+  "version": "1.0.0",
+  "description": "Source code for https://assets.eigh.tk",
+  "main": "nuxt.config.js",
+  "scripts": {
+    "test": "echo test",
+    "build": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Company8k/assets.eigh.tk.git"
+  },
+  "keywords": [
+    "Assets",
+    "Blockchain",
+    "8K"
+  ],
+  "author": "NT <coin@eigh.tk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Company8k/assets.eigh.tk/issues"
+  },
+  "homepage": "https://assets.eigh.tk"
+}
