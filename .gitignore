@@ -60,3 +60,4 @@ typings/
 
 #nuxt files
 .nuxt/
+server.js

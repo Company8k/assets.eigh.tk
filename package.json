@@ -5,7 +5,8 @@
   "main": "nuxt.config.js",
   "scripts": {
     "test": "echo test",
-    "build": "nuxt generate"
+    "build": "nuxt generate",
+    "dev": "nuxt"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://assets.eigh.tk",
   "dependencies": {
+    "axios": "^0.16.2",
     "normalize.css": "^7.0.0",
     "nuxt": "^1.0.0-alpha.5"
   }
