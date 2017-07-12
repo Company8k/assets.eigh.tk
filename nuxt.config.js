@@ -16,6 +16,6 @@ module.exports = {
     }
   },
   css: [
-    'foundation/scss/normalize.css'
+    { src:'~assets/eightk.scss', lang:'scss' }
   ]
 };

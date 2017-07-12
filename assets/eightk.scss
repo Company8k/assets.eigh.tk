@@ -1,0 +1,18 @@
+@import '~foundation-sites/scss/foundation.scss';
+
+$foundation-palette: (
+  primary: bisque,
+  secondary: #11116a,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+$body-font-family: sans-serif;
+
+@include foundation-global-styles;
+
+.eightk {
+  footer {
+    @include callout-base;
+  }
+}
