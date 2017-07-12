@@ -11,9 +11,13 @@ $foundation-palette: (
 @import './style/typography';
 
 @include foundation-global-styles;
+@include foundation-thumbnail;
 
 .eightk {
   
+  @include foundation-off-canvas;
+  @include foundation-button;
+  @include foundation-title-bar;
   
   footer {
     @include callout-base;

@@ -1,22 +1,19 @@
-<template lang="pug">
-  <div>
-    <h1>Welcome!</h1>
-  </div>
-</template>
-
 <script>
-  export default {
-    asyncData (context) {
-      // called every time before loading the component
-      return { name: 'World' }
-    },
-    fetch () {
-      // The fetch method is used to fill the store before rendering the page
-    },
-    head () {
-      return{
-        title: 'Index'
-      }
+import axios from 'axios'
+
+export default {
+  async fetch ({ store, params }) {
+    let { data } = await axios.get('https://api.coinprism.com/v1/assets/AZHHLvzKbsEPZUQXvCfihkEknF71GHNpPH/owners')
+    //store.commit('setStars', data)
+    console.log(this,arguments,data)
+  },
+  head () {
+    return{
+      title: 'Owners'
     }
+  },
+  render(h) {
+    return <span>{this.name}</span>
   }
+}
 </script>

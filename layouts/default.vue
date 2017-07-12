@@ -1,9 +1,14 @@
+<template>
+  <nuxt/>
+</template>
+
 <script>
-  export default{
-    render (h) {
-      return <nuxt/>
-    }
+require('foundation-sites')
+export default{
+  mounted(){
+    $(document).foundation();
   }
+}
 </script>
 
 <style lang="scss">

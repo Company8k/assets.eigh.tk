@@ -1,5 +1,20 @@
 /*eslint-env node*/
+var webpack = require('webpack');
+
 module.exports = {
+  build: {
+    plugins: [
+      new webpack.ProvidePlugin({
+        '$': 'jquery'
+        //'_': 'lodash'
+      })
+    ],
+    vendor: [
+      'axios',
+      'jquery',
+      'foundation-sites'
+    ]
+  },
   head: {
     meta: [
       { charset: 'utf-8' },
