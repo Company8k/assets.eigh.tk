@@ -7,15 +7,15 @@ module.exports = {
     ],
     link: [
       {
-        rel: 'stylesheet', href: '//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css',
-        integrity: 'sha256-Q9c+RVayp4Y4gEKE3jaABDEwnMlDf6cFEWEQSzFaOB8=', crossorigin: 'anonymous'
+        rel: 'stylesheet', href: '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+        integrity: 'sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN', crossorigin: 'anonymous'
       }
-    ],
-    bodyAttrs:{
-      class: 'eightk'
-    }
+    ]
   },
   css: [
     { src:'~assets/eightk.scss', lang:'scss' }
+  ],
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false }
   ]
 };

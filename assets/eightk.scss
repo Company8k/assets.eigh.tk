@@ -7,12 +7,16 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
-$body-font-family: sans-serif;
+
+@import './style/typography';
 
 @include foundation-global-styles;
 
 .eightk {
+  
+  
   footer {
     @include callout-base;
+    height:   1.15rem;
   }
 }
