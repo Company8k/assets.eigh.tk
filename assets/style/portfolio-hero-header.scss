@@ -1,0 +1,54 @@
+$portfolio-hero-header-background-color: $light-gray;
+
+.portfolio-hero-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('~assets/image/Youtube.png');
+  background-position: -23% 2%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 2rem 0;
+}
+
+.portfolio-hero-header-description {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+  li {
+    flex: 1 0 200px;
+    text-align: center;
+    padding: 0 1.25rem;
+    position: relative;
+    white-space: nowrap;
+
+    &:before {
+      content: "*";
+      position: absolute;
+      left: 0;
+      top: 5px;
+    }
+
+    &:first-child:before {
+      content: "";
+    }
+  }
+}
+
+.portfolio-hero-header-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+  li {
+    margin: 1.25rem;
+
+    a {
+      padding-left: 1.875rem;
+      padding-right: 1.875rem;
+    }
+  }
+}

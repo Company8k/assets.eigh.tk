@@ -3,7 +3,7 @@
 </template>
 
 <script>
-require('foundation-sites')
+
 export default{
   mounted(){
     $(document).foundation();
