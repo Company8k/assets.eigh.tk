@@ -10,9 +10,7 @@ module.exports = {
       })
     ],
     vendor: [
-      'axios',
-      'jquery',
-      'foundation-sites'
+      'axios', 'jquery'
     ]
   },
   head: {
@@ -31,6 +29,7 @@ module.exports = {
     { src:'~assets/eightk.scss', lang:'scss' }
   ],
   plugins: [
-    { src: '~plugins/ga.js', ssr: false }
+    { src: '~plugins/ga.js', ssr: false },
+    { src: '~plugins/foundation.js'}
   ]
 };

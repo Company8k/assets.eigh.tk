@@ -5,7 +5,7 @@
   "main": "nuxt.config.js",
   "scripts": {
     "test": "echo test",
-    "build": "nuxt generate",
+    "build": "NODE_ENV=production nuxt generate",
     "dev": "nuxt",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },

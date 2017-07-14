@@ -1,2 +1,3 @@
-require('foundation-sites')
-$(document).foundation();
+//require('foundation-sites')
+
+//$(document).foundation();
