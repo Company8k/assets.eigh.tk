@@ -9,7 +9,17 @@ export default {
   },
   head () {
     return{
-      title: 'Owners'
+      title: 'Assets',
+      meta: [
+        { property: 'og:description', content: 'Officially on the bitcoin blockchain since block 474730' }
+      ], script: [
+        {
+          "innerHTML": `
+          some test with newline and <markup>
+          `,
+          "type":"application/ld+json"
+        }
+      ]
     }
   },
   render(h) {

@@ -8,23 +8,25 @@ module.exports = {
         '$': 'jquery'
         //'_': 'lodash'
       })
-    ],
-    vendor: [
+    ], vendor: [
       'axios', 'jquery'
     ]
-  },
-  head: {
-    meta: [
+  }, head: {
+    htmlAttrs: {
+      prefix: 'og: http://ogp.me/ns#'
+     }, bodyAttrs:{
+      "class": 'eightk' 
+    }, meta: [
       { charset: 'utf-8' },
+      { property: 'og:title', content: '8K Assets' },
+      { property: 'og:image', content: 'https://coinprism.blob.core.windows.net/profile/icon/AZHHLvzKbsEPZUQXvCfihkEknF71GHNpPH.jpg' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-    ],
-    link: [
+    ], link: [
       {
         rel: 'stylesheet', href: '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
         integrity: 'sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN', crossorigin: 'anonymous'
       }
-    ],
-    script: [
+    ], script: [
       { innerHTML: `{
         "@context": "http://schema.org",
         "@type": "Organization",
